@@ -2,6 +2,7 @@
 kubectl create namespace argo-rollouts 
 
 kubectl get ns argo-rollouts 
+
 kubectl apply -n argo-rollouts -f https://github.com/argoproj/argo-rollouts/releases/latest/download/install.yaml
 
 kubectl get all -n argo-rollouts
